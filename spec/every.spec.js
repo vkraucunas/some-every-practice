@@ -32,8 +32,24 @@ describe('myCode', function () {
   it('#allSameVowels', function () {
     var goodInput = ['amalgam', 'zoom'];
     expect(myCode.allSameVowels(goodInput)).toBe(true);
-    
+
     var badInput = ['zoom', 'oligopoly'];
     expect(myCode.allSameVowels(badInput)).toBe(false);
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
